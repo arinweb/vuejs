@@ -1,0 +1,21 @@
+<html>
+<head>
+  <title>VueJs Cdn</title>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js">            
+  </script>
+</head>
+<body>
+  <div id="app">
+    <h1>Merhaba {{ text }} Bu bir vujs projesi</h1>
+  </div>
+  <script>
+  //vue nesnemizi oluşturup id'si "app" olan div'e eriştik.
+    var app = new Vue({
+      el:"#app",
+      data:{
+        text: "Emre",
+      }
+    })
+  </script>
+</body>
+</html>
